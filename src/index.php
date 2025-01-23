@@ -8,11 +8,11 @@
     <!-- Content Layer -->
     <div class="relative z-10">
         <div class="w-full flex items-center justify-between mb-10 text-white">
-            <h1 class="text-center">Home</h1>
-            <h1 class="text-center">Movies</h1>
-            <h1 class="text-center">Series</h1>
-            <h1 class="text-center">Profile</h1>
-            <h1 class="text-center">Settings</h1>
+            <a href="#" class="text-center">Home</a>
+            <a href="#" class="text-center">Movies</a>
+            <a href="#" class="text-center">Series</a>
+            <a href="#" class="text-center text-pink-700">Sign In</a>
+            <a href="#" class="text-center text-pink-700">Sign Up</a>
             <input type="text" class="outline outline-1 outline-gray-400 bg-transparent p-2 rounded-md"
                 placeholder="search" />
         </div>
@@ -29,8 +29,8 @@
                 <p class="text-2xl  text-yellow-300 mb-4">1h 45m </p>
 
                 <div class="flex justify-start gap-4">
-                    <button class="bg-blue-300 p-2 w-full rounded-sm ">Play</button>
-                    <button class="bg-blue-300 p-2 w-full rounded-sm ">Download</button>
+                    <button class="bg-blue-300 hover:bg-blue-400 p-2 w-full rounded-sm ">Play</button>
+                    <button class="bg-blue-300 hover:bg-blue-400 p-2 w-full rounded-sm ">Download</button>
                 </div>
             </div>
             <div class="p-2 [w-50%]">
