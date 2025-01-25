@@ -11,8 +11,8 @@
             <a href="#" class="text-center">Home</a>
             <a href="#" class="text-center">Movies</a>
             <a href="#" class="text-center">Series</a>
-            <a href="#" class="text-center text-pink-700">Sign In</a>
-            <a href="#" class="text-center text-pink-700">Sign Up</a>
+            <a href="#" class="text-center text-blue-300">Sign In</a>
+            <a href="#" class="text-center text-blue-300">Sign Up</a>
             <input type="text" class="outline outline-1 outline-gray-400 bg-transparent p-2 rounded-md"
                 placeholder="search" />
         </div>
