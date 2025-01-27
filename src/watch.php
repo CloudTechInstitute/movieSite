@@ -23,20 +23,21 @@
         </div>
         <div class="flex items-start justify-center gap-4 mb-5">
             <div class="[w-50%]">
-                <video controls class="rounded-xl w-full">
+                <video controls download="false" class="rounded-xl w-full">
                     <source src="videos/video.mp4" type="video/mp4">
                     Your browser does not support this video.
                 </video>
             </div>
             <div class="[w-50%]">
-                <div class="bg-gray-900 p-4 h-[394px] w-72 rounded-2xl opacity-65 outline outline-1 outline-gray-200">
+                <div class="bg-gray-900 p-4 h-[394px] w-72 rounded-2xl opacity-65 outline outline-1 outline-gray-700">
                     <div class="flex justify-between w-full p-2 items-center">
-                        <div class="text-white font-semibold">
-                            Comments
+                        <div class="text-white">
+                            Comments (30)
                         </div>
                         <div class="flex items-center gap-2 text-white">
-                            <i class="fa fa-users"></i>
-                            <p class="text-xs">30 people</p>
+                            <i class="fa fa-thumbs-up"></i>
+                            <!-- <i class="fa fa-users"></i> -->
+                            <!-- <p class="text-xs">30 people</p> -->
                         </div>
                     </div>
                     <div class="w-full h-[1px] bg-white"></div>
@@ -53,6 +54,44 @@
                 </div>
             </div>
         </div>
+        <div class="bg-gray-900 p-4 w-full rounded-2xl opacity-45 mb-5 outline outline-1 outline-gray-700">
+            <div class="flex justify-start w-full p-2 items-center gap-4">
+                <div class="flex items-center gap-2 text-white">
+                    <i class="fa fa-thumbs-up"></i>
+                    <p class="text-xs">30</p>
+                </div>
+                <div class="flex items-center gap-2 text-white">
+                    <i class="fa fa-eye"></i>
+                    <p class="text-xs">1,930,897</p>
+                </div>
+                <div class="flex items-center gap-2 text-white">
+                    <i class="fa fa-clock"></i>
+                    <p class="text-xs">24-10-2024</p>
+                </div>
+            </div>
+            <div class="text-white">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend justo finibus pretium bibendum.
+                    Praesent eget tempus ante, et accumsan quam. Sed egestas lorem ipsum, vitae porta felis sagittis
+                    sed. Sed pulvinar, urna a mattis mattis, lorem nulla dignissim eros, sed gravida enim mi eu eros.
+                    Aliquam laoreet laoreet eros vel hendrerit. Aenean sed ligula sit amet elit dignissim gravida ac non
+                    metus. Cras ligula lorem, condimentum ac sapien ac, congue imperdiet orci. In eget feugiat est. Sed
+                    nec nibh lectus. Sed in malesuada erat, in facilisis dui. Cras viverra risus id venenatis pharetra.
+                </p>
+            </div>
+        </div>
+        <!-- skeleton loader -->
+        <!-- <div role="status" class="max-w-sm animate-pulse">
+            <div class="h-24 bg-gray-200 rounded-full dark:bg-gray-700 w-48 mb-4"></div>
+            <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[360px] mb-2.5"></div>
+            <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
+            <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[330px] mb-2.5"></div>
+            <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[300px] mb-2.5"></div>
+            <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[360px]"></div>
+            <span class="sr-only">Loading...</span>
+        </div> -->
+
+
+
         <div class="flex justify-between w-full text-white  mb-2">
             <p class="uppercase font-bold">Related content</p>
             <a href="#" class="text-sm">See all</a>
@@ -130,6 +169,7 @@
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.js"></script>
 </body>
 
 </html>
