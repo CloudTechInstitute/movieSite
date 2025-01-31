@@ -1,12 +1,12 @@
 <?php include 'header.php'; ?>
 
-<body class="relative flex flex-col justify-center px-64 py-6 bg-gray-900 bg-cover bg-center bg-fixed"
+<body class="relative flex flex-col justify-center py-6 bg-gray-900 bg-cover bg-center bg-fixed"
     style="background-image: url('images/13124.jpg');">
     <!-- Blurred Background -->
     <div class="absolute inset-0 bg-gray-900 bg-opacity-50 filter blur-sm"></div>
 
     <!-- Content Layer -->
-    <div class="relative z-10">
+    <div class="relative z-10 max-w-7xl mx-auto">
         <div class="w-full flex items-center justify-between mb-10 text-white">
             <a href="#" class="text-center">Home</a>
             <a href="#" class="text-center">Movies</a>
@@ -16,7 +16,7 @@
             <input type="text" class="outline outline-1 outline-gray-400 bg-transparent p-2 rounded-md"
                 placeholder="search" />
         </div>
-        <div class="flex items-start justify-center gap-10 mb-10 px-36">
+        <div class="flex items-start justify-center gap-10 mb-10 px-64">
             <div class="p-2 [w-50%]">
                 <p class="text-4xl font-bold text-white mb-4">
                     Moonlight
@@ -42,87 +42,87 @@
         <div class="w-full">
             <div class="grid grid-cols-5 gap-6 w-full text-white">
                 <div class=" w-full">
-                    <div class="w-full outline outline-1 outline-gray-500 h-64 rounded-md overflow-hidden">
+                    <div class="w-full outline outline-1 outline-gray-500 h-80 rounded-md overflow-hidden">
                         <img src="images/black.jpg" alt="black panther poster"
                             class="w-full h-full object-cover rounded-md" />
                     </div>
                 </div>
                 <div class="w-full">
-                    <div class="w-full outline outline-1 outline-gray-500 h-64 rounded-md overflow-hidden">
+                    <div class="w-full outline outline-1 outline-gray-500 h-80 rounded-md overflow-hidden">
                         <img src="images/star.jpg" alt="star wars poster"
                             class="w-full h-full object-cover rounded-md" />
                     </div>
                 </div>
                 <div class="w-full">
-                    <div class="w-full outline outline-1 outline-gray-500 h-64 rounded-md overflow-hidden">
+                    <div class="w-full outline outline-1 outline-gray-500 h-80 rounded-md overflow-hidden">
                         <img src="images/bat.jpg" alt="bat man poster" class="w-full h-full object-cover rounded-md" />
                     </div>
                 </div>
                 <div class=" w-full">
-                    <div class="w-full outline outline-1 outline-gray-500 h-64 rounded-md overflow-hidden">
+                    <div class="w-full outline outline-1 outline-gray-500 h-80 rounded-md overflow-hidden">
                         <img src="images/black.jpg" alt="black panther poster"
                             class="w-full h-full object-cover rounded-md" />
                     </div>
                 </div>
                 <div class="w-full">
-                    <div class="w-full outline outline-1 outline-gray-500 h-64 rounded-md overflow-hidden">
+                    <div class="w-full outline outline-1 outline-gray-500 h-80 rounded-md overflow-hidden">
                         <img src="images/star.jpg" alt="star wars poster"
                             class="w-full h-full object-cover rounded-md" />
                     </div>
                 </div>
                 <div class="w-full">
-                    <div class="w-full outline outline-1 outline-gray-500 h-64 rounded-md overflow-hidden">
+                    <div class="w-full outline outline-1 outline-gray-500 h-80 rounded-md overflow-hidden">
                         <img src="images/bat.jpg" alt="bat man poster" class="w-full h-full object-cover rounded-md" />
                     </div>
                 </div>
                 <div class=" w-full">
-                    <div class="w-full outline outline-1 outline-gray-500 h-64 rounded-md overflow-hidden">
+                    <div class="w-full outline outline-1 outline-gray-500 h-80 rounded-md overflow-hidden">
                         <img src="images/black.jpg" alt="black panther poster"
                             class="w-full h-full object-cover rounded-md" />
                     </div>
                 </div>
                 <div class="w-full">
-                    <div class="w-full outline outline-1 outline-gray-500 h-64 rounded-md overflow-hidden">
+                    <div class="w-full outline outline-1 outline-gray-500 h-80 rounded-md overflow-hidden">
                         <img src="images/star.jpg" alt="star wars poster"
                             class="w-full h-full object-cover rounded-md" />
                     </div>
                 </div>
                 <div class="w-full">
-                    <div class="w-full outline outline-1 outline-gray-500 h-64 rounded-md overflow-hidden">
+                    <div class="w-full outline outline-1 outline-gray-500 h-80 rounded-md overflow-hidden">
                         <img src="images/bat.jpg" alt="bat man poster" class="w-full h-full object-cover rounded-md" />
                     </div>
                 </div>
                 <div class=" w-full">
-                    <div class="w-full outline outline-1 outline-gray-500 h-64 rounded-md overflow-hidden">
+                    <div class="w-full outline outline-1 outline-gray-500 h-80 rounded-md overflow-hidden">
                         <img src="images/black.jpg" alt="black panther poster"
                             class="w-full h-full object-cover rounded-md" />
                     </div>
                 </div>
                 <div class="w-full">
-                    <div class="w-full outline outline-1 outline-gray-500 h-64 rounded-md overflow-hidden">
+                    <div class="w-full outline outline-1 outline-gray-500 h-80 rounded-md overflow-hidden">
                         <img src="images/star.jpg" alt="star wars poster"
                             class="w-full h-full object-cover rounded-md" />
                     </div>
                 </div>
                 <div class="w-full">
-                    <div class="w-full outline outline-1 outline-gray-500 h-64 rounded-md overflow-hidden">
+                    <div class="w-full outline outline-1 outline-gray-500 h-80 rounded-md overflow-hidden">
                         <img src="images/bat.jpg" alt="bat man poster" class="w-full h-full object-cover rounded-md" />
                     </div>
                 </div>
                 <div class=" w-full">
-                    <div class="w-full outline outline-1 outline-gray-500 h-64 rounded-md overflow-hidden">
+                    <div class="w-full outline outline-1 outline-gray-500 h-80 rounded-md overflow-hidden">
                         <img src="images/black.jpg" alt="black panther poster"
                             class="w-full h-full object-cover rounded-md" />
                     </div>
                 </div>
                 <div class="w-full">
-                    <div class="w-full outline outline-1 outline-gray-500 h-64 rounded-md overflow-hidden">
+                    <div class="w-full outline outline-1 outline-gray-500 h-80 rounded-md overflow-hidden">
                         <img src="images/star.jpg" alt="star wars poster"
                             class="w-full h-full object-cover rounded-md" />
                     </div>
                 </div>
                 <div class="w-full">
-                    <div class="w-full outline outline-1 outline-gray-500 h-64 rounded-md overflow-hidden">
+                    <div class="w-full outline outline-1 outline-gray-500 h-80 rounded-md overflow-hidden">
                         <img src="images/bat.jpg" alt="bat man poster" class="w-full h-full object-cover rounded-md" />
                     </div>
                 </div>
